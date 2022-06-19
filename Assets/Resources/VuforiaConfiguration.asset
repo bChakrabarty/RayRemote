@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AS1mgJL/////AAABmVO4I572FknFiLlSyTZ5uZs0GONp8D1PeI5j1CSEyAuvUYv3mLJGlsTKs/AwgTV9vXUESdCBHdFDTUImHm5eZ4SvVuWynlUaHlocCK2qNAoMHNc3p59ov5v+SA1Hj54IYMf+vQyHexIXs2D8YI9GWTvyVP4N9VtchKjeLWajjRVLxlUhSNQ+kLE02hxSaGU1u0xxtqoHKTEWYLoTAli8GEPX5n4DGY5zxMnVJK8vK/dC4b4Cs2Y+YAAC1o1gcmbdAjPQ5QK8qvuRJn7jrxoxq2WyoTg9Z6keSwJ9HnOY6A1KXLdtUZe/tA3AA4SYVSUQ65MqTQvwg8mtYkKcoZgau3hlb/McdYZbdsNkP3kYRpS+
+    ufoLicenseKey: QVIzdDRici8vLy8vQUFBQUtGNkR0V3MxcFVGK3VBdE5iOXY3ZlI0dmFjelQxS3ZVVzhxd0lHSHhNaHA0WmxRZXR6Tmw2WEtmMkthM3d0MVUzQnh3dHJzZ1FSQWl5eUY1SjZYb1BxS2pUN0d2bUZCcnp0eUE2RU9pVjJLSC9YcW4yV2NScmRtdEx6NGZDYUdVY2E5U0dwbGNtNHA2aXpod1F6L3JuZXJILzVpMzB3Y0lVZ0FPUkNNN1lkdmZCbW9VUjY4WXgrZ29NZkZQU3BmWHlBYUhManR6aGUwa2txUzRjZEpSZlJBc0FYc1YvL0JDb2VUbUEyS0lmYlMyYXQvakZad3Z2dUtBUEN0aUtJbk9tU29GK0dNeDY5cVlqNlNHL0R4ZVBma0VidjJoMEFUODMvZkcwdk02RG41aTRHdWhYWEpkSEtyZUtnQng4MWxsWVQ0RVhBUjJsVEFMRWpROHVGRGhBS2VzTlN6RXVWM21JUDFKYjBXRzN1bTU=
+    delayedInitialization: 0
+    cameraFocusModeSetting: 2
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 4
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 0
+    version: 10.7.2
+    eulaAcceptedVersions: '{"Values":["","0.0","10.3","8.3","7.1","8.1","10.7"]}'
+  database:
+    disableModelExtraction: 0
+  shaders:
+    depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
+  playmode:
+    mSequencePath: C:/Users/Biswa/Downloads/VuforiaSession-20220525-144807 (1).mp4
+    playModeType: 2
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 4.1.7
